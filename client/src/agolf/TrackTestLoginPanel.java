@@ -89,7 +89,7 @@ class TrackTestLoginPanel extends Panel implements ActionListener, KeyListener {
         labelError.setForeground(Color.red);
         labelError.setVisible(false);
         add(labelError);
-        labelName = new Label("Player Name:");
+        labelName = new Label("Nickname:");
         labelName.setBounds(width / 2 - 200, height / 2 - 60, 75, 25);
         add(labelName);
         //No more labels needed

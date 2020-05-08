@@ -9,7 +9,7 @@
             <delete dir="${build}"/>
             <mkdir dir="${build}"/>
 
-            <javac srcdir="${src}" destdir="${build}" debug="on" encoding="iso-8859-1">
+            <javac srcdir="${src}" destdir="${build}" debug="on" encoding="utf8">
               <compilerarg value="-XDignore.symbol.file" />
                 <classpath>
                     <pathelement path="${java.class.path}/"/>

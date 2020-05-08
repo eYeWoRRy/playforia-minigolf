@@ -92,7 +92,8 @@ public class GameApplet extends AApplet {
 
     public void appletReady() {
         this.gameContainer.autoPopup = new AutoPopups(this);
-        this.setGameSettings(false, 0, false, true); // disabled Bad Word Filter!
+        //this.setGameSettings(false, 0, false, true); // disabled Bad Word Filter!
+        this.setGameSettings(false, 0, true, true); // enabled Bad Word Filter!
         this.gameContainer.trackCollection = new TrackCollection();
         this.anImage3774 = this.createImage(735, 375);
         this.gameContainer.connection.sendVersion();

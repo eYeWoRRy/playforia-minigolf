@@ -43,7 +43,7 @@ Choose your prefered toolchain:
 1. **IntelliJ IDEA**: Import Project from git and compile - Due to updates to the IDE, I unfortunately can not help you with this at the moment, as I have to figure it out, too.
 2. **Ant Build**: Run `ant compile` in the repective directory
 
-**Warning:** If you have multiple versions of the JDK installed, you have to make sure, that the environment variable `JAVA_HOME` points to the actual directory where version 1.8 is located. (For MacOS if had to run `JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home ant compile`)
+**Warning:** If you have multiple versions of the JDK installed, you have to make sure, that the environment variable `JAVA_HOME` points to the actual directory where version 1.8 is located. (For MacOS I had to run `JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home ant compile`)
 
 ### Running
 

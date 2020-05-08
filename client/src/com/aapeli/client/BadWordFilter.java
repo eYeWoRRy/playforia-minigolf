@@ -158,7 +158,7 @@ public final class BadWordFilter {
         for (int var5 = 0; var5 < var4; ++var5) {
             char var6 = var2.charAt(var5);
             if (var6 != 32) {
-                //var1 = var1.replace(var6, var3.charAt(var5)); // Broken
+                var1 = var1.replace(var6, var3.charAt(var5));
             }
         }
 
